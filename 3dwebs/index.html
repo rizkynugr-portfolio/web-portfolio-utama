@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Creative Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+<body>
+
+    <div id="preloader">
+        <div class="loader-wrapper">
+            <div class="gyro-container">
+                <div class="ring ring-1"></div>
+                <div class="ring ring-2"></div>
+                <div class="ring ring-3"></div>
+                <div class="core"></div>
+            </div>
+            <span class="loader-text" data-text="INITIALIZING SYSTEM...">INITIALIZING SYSTEM...</span>
+        </div>
+    </div>
+
+    <img class="image-gradient" src="img/gradient.png" alt="gradient">
+    <div class="layer-blur"></div>
+
+    <div class="container">
+        
+        <header>
+            <h1 data-aos="fade-down" data-aos-duration="1500" class="logo">RIZKYNUGR.</h1>
+
+            <nav>
+                <a data-aos="fade-down" data-aos-duration="1500" href="index.html">HOME</a>
+                <a data-aos="fade-down" data-aos-duration="2000" href="#about">ABOUT</a>
+                <a data-aos="fade-down" data-aos-duration="2500" href="project.html">PROJECTS</a>
+                <a data-aos="fade-down" data-aos-duration="3000" href="contact.html">CONTACT</a>
+            </nav>
+
+            <a href="#contact" data-aos="fade-down" data-aos-duration="1500" class="btn-signing">HIRE ME</a>
+        </header>
+        
+        <main id="home">
+            <div class="content">
+                <div data-aos="fade-zoom-in"
+                        data-aos-easing="ease-in-back"
+                        data-aos-delay="300"
+                        data-aos-offset="0" data-aos-duration="1500" class="tag-box">
+                    <div class="tag">FULL STACK DEVELOPER</div>
+                </div>
+
+                <h1 data-aos="fade-zoom-in"
+                        data-aos-easing="ease-in-back"
+                        data-aos-delay="300"
+                        data-aos-offset="0" data-aos-duration="2000">
+                    CRAFTING DIGITAL <br> EXPERIENCES
+                </h1>
+
+                <p data-aos="fade-zoom-in"
+                        data-aos-easing="ease-in-back"
+                        data-aos-delay="300"
+                        data-aos-offset="0" data-aos-duration="2500" class="description">
+                    Hi, I create immersive web applications with modern technologies.
+                    Specializing in React, Node.js, and interactive 3D interfaces designed to stand out.
+                </p>
+
+                <div data-aos="fade-zoom-in"
+                        data-aos-easing="ease-in-back"
+                        data-aos-delay="300"
+                        data-aos-offset="0" data-aos-duration="3000" class="buttons">
+                    <a href="#projects" class="btn-get-started">View Projects</a>
+                    <a href="#contact" class="btn-signin-main">Contact Me</a>
+                </div>
+
+            </div>
+         </main>
+
+         <section id="about" class="about-section">
+            <div class="about-img-wrapper" data-aos="fade-right" data-aos-duration="1500">
+                <img src="img/profile.jpg" alt="Profile Picture" class="profile-img">
+                <div class="img-backdrop"></div>
+            </div>
+            <div class="about-content" data-aos="fade-left" data-aos-duration="1500">
+                <h2 class="section-title">ABOUT <span>ME</span></h2>
+                <h3 class="role-title">Web Developer | UI/UX Enthusiast</h3>
+                <p class="about-description">
+                    My journey began at <strong>Universitas Sebelas Maret (UNS)</strong>, where I am currently pursuing a 
+                    Diploma in <strong>Informatics Engineering</strong>. Combining academic discipline with creative passion, 
+                    I specialize in both <strong>Web Development</strong> and <strong>UI/UX Design</strong>.
+                </p>
+                <div class="skills-wrapper">
+                    <div class="skill-card">
+                        <div class="skill-header">
+                            <span class="skill-icon">🎨</span>
+                            <h4>UI/UX Designer</h4>
+                        </div>
+                        <p class="skill-desc">Focusing on user flow, wireframing, and high-fidelity prototyping.</p>
+                        <div class="tech-badges">
+                            <span>Figma</span>
+                            <span>Prototyping</span>
+                            <span>User Research</span>
+                        </div>
+                    </div>
+                    <div class="skill-card highlight-card">
+                        <div class="skill-header">
+                            <span class="skill-icon">💻</span>
+                            <h4>Web Developer</h4>
+                        </div>
+                        <div class="dev-category">
+                            <span class="cat-title">Frontend:</span>
+                            <div class="tech-badges">
+                                <span class="badge-html">HTML</span>
+                                <span class="badge-css">CSS</span>
+                                <span class="badge-react">React</span>
+                                <span class="badge-tailwind">Tailwind</span>
+                            </div>
+                        </div>
+                        <div class="dev-category">
+                            <span class="cat-title">Backend:</span>
+                            <div class="tech-badges">
+                                <span class="badge-php">PHP</span>
+                                <span class="badge-laravel">Laravel</span>
+                                <span class="badge-node">Node.js</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="stats-mini">
+                    <span>Still in College at <strong>UNS</strong></span> | 
+                    <span><strong>10+</strong> Projects Done</span>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects-section">
+            <div data-aos="fade-down" data-aos-duration="1000" style="text-align: center; margin-bottom: 40px;">
+                <h2 class="section-title">FEATURED <span>PROJECTS</span></h2>
+                <p style="color: #ccc;">Geser untuk melihat karya terbaik saya</p>
+            </div>
+            <div class="swiper mySwiper" data-aos="fade-up" data-aos-duration="1500">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="https://images.unsplash.com/photo-1555099962-4199c345e5dd?q=80&w=1000&auto=format&fit=crop" alt="Project 1" class="project-img">
+                        <div class="project-content">
+                            <h3 class="project-title">E-Commerce Dashboard</h3>
+                            <p class="project-desc">Platform manajemen toko online dengan analisis data real-time.</p>
+                            <div class="tech-stack"><span class="tech-tag">React</span><span class="tech-tag">Node.js</span><span class="tech-tag">MongoDB</span></div>
+                            <a href="#" class="btn-project">View Demo</a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="https://images.unsplash.com/photo-1614741118868-9c7c9daea2bf?q=80&w=1000&auto=format&fit=crop" alt="Project 2" class="project-img">
+                        <div class="project-content">
+                            <h3 class="project-title">Crypto Wallet App</h3>
+                            <p class="project-desc">Aplikasi dompet digital aman dengan integrasi blockchain.</p>
+                            <div class="tech-stack"><span class="tech-tag">Vue.js</span><span class="tech-tag">Tailwind</span><span class="tech-tag">Web3.js</span></div>
+                            <a href="#" class="btn-project">View Demo</a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=1000&auto=format&fit=crop" alt="Project 3" class="project-img">
+                        <div class="project-content">
+                            <h3 class="project-title">Travel Booking</h3>
+                            <p class="project-desc">Sistem pemesanan tiket wisata dengan fitur peta interaktif.</p>
+                            <div class="tech-stack"><span class="tech-tag">Laravel</span><span class="tech-tag">Bootstrap</span></div>
+                            <a href="#" class="btn-project">View Demo</a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?q=80&w=1000&auto=format&fit=crop" alt="Project 4" class="project-img">
+                        <div class="project-content">
+                            <h3 class="project-title">AI Chatbot</h3>
+                            <p class="project-desc">Asisten virtual berbasis AI yang dapat menjawab otomatis.</p>
+                            <div class="tech-stack"><span class="tech-tag">Python</span><span class="tech-tag">React</span></div>
+                            <a href="#" class="btn-project">View Demo</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+        </section>
+
+        <footer class="main-footer">
+            <div class="footer-container">
+                <div class="footer-top">
+                    <h2 class="footer-logo">RIZKYNUGR.</h2>
+                    <div class="footer-nav">
+                        <a href="index.html">Home</a>
+                        <a href="index.html#about">About</a>
+                        <a href="index.html#projects">Projects</a>
+                        <a href="project.html">All Works</a>
+                    </div>
+                </div>
+                <div class="footer-divider"></div>
+                <div class="footer-bottom">
+                    <p>&copy; 2024 Rizky Nugraha. Built with Passion.</p>
+                    <div class="footer-socials">
+                        <a href="https://www.instagram.com/rizkynugr_/">Instagram</a>
+                        <a href="https://www.linkedin.com/in/rizkynugr">LinkedIn</a>
+                        <a href="#">GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+         <spline-viewer data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0" data-aos-duration="3000" class="robot-3d" url="https://prod.spline.design/lxPjZjr6-qWCDCyj/scene.splinecode"></spline-viewer>
+
+    </div>
+
+    <script type="module" src="https://unpkg.com/@splinetool/viewer@1.12.28/build/spline-viewer.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    
+    <script>
+        // Init AOS
+        AOS.init();
+
+        // 1. PRELOADER LOGIC
+        window.addEventListener("load", () => {
+            const preloader = document.getElementById("preloader");
+            setTimeout(() => {
+                preloader.classList.add("loader-hidden");
+                preloader.addEventListener("transitionend", () => {
+                    if(preloader.parentNode) preloader.parentNode.removeChild(preloader);
+                });
+            }, 500);
+        });
+
+        // 2. SPLINE LOGO REMOVER
+        document.addEventListener('DOMContentLoaded', () => {
+            const viewer = document.querySelector('spline-viewer');
+            const removeLogo = setInterval(() => {
+                if (viewer.shadowRoot) {
+                    const logo = viewer.shadowRoot.querySelector('#logo');
+                    if (logo) {
+                        logo.style.display = 'none';
+                        clearInterval(removeLogo);
+                    }
+                }
+            }, 50);
+            setTimeout(() => clearInterval(removeLogo), 5000);
+        });
+
+        // 3. SWIPER INIT
+        var swiper = new Swiper(".mySwiper", {
+            effect: "coverflow", 
+            grabCursor: true,
+            centeredSlides: true,
+            slidesPerView: "auto", 
+            coverflowEffect: {
+                rotate: 50, stretch: 0, depth: 100, modifier: 1, slideShadows: true,
+            },
+            pagination: { el: ".swiper-pagination", clickable: true },
+            navigation: { nextEl: ".swiper-button-next", prevEl: ".swiper-button-prev" },
+            autoplay: { delay: 3000, disableOnInteraction: false },
+        });
+    </script>
+
+</body>
+</html>

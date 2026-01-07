@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Rizky Nugraha</title>
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;500;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <img class="image-gradient" src="img/gradient.png" alt="gradient">
+    <div class="layer-blur"></div>
+
+    <div class="container">
+        
+        <header>
+            <h1 class="logo">RIZKYNUGR.</h1>
+
+            <nav>
+                <a href="index.html">HOME</a>
+                <a href="index.html#about">ABOUT</a>
+                <a href="project.html">PROJECTS</a>
+                <a href="contact.html" class="active">CONTACT</a>
+            </nav>
+
+            <a href="contact.html" class="btn-signing">HIRE ME</a>
+        </header>
+
+        <section class="page-header" data-aos="fade-down">
+            <h1>LET'S <span class="highlight">CONNECT</span></h1>
+            <p>Punya ide proyek menarik atau ingin berdiskusi soal teknologi? Jangan ragu untuk menyapa.</p>
+        </section>
+
+        <div class="contact-page-wrapper">
+            
+            <div class="contact-form-full" data-aos="fade-right" data-aos-delay="200">
+                <div class="form-header">
+                    <h3>Send a Message</h3>
+                    <p>Saya biasanya membalas dalam waktu 24 jam.</p>
+                </div>
+
+                <form id="contactPageForm">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" class="form-input" placeholder="Your Name" required autocomplete="off">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" class="form-input" placeholder="name@example.com" required autocomplete="off">
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <div class="select-wrapper">
+                            <select id="subject" class="form-input">
+                                <option>General Inquiry</option>
+                                <option>Web Development Project</option>
+                                <option>UI/UX Design</option>
+                                <option>Virtual Reality Project</option>
+                                <option>Other</option>
+                            </select>
+                            <span class="select-arrow">▼</span>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" class="form-textarea" placeholder="Tell me about your project details..." required></textarea>
+                    </div>
+                    
+                    <button type="submit" class="btn-submit-glow">
+                        <span>Send Message 🚀</span>
+                    </button>
+                </form>
+            </div>
+
+            <div class="contact-sidebar" data-aos="fade-left" data-aos-delay="400">
+                
+                <div class="info-card">
+                    <h4>Contact Info</h4>
+                    <div class="info-item">
+                        <div>
+                            <span class="label">Email</span>
+                            <p>rizkynugrahaputra2005@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <div>
+                            <span class="label">Location</span>
+                            <p>Madiun, East Java, ID</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <div>
+                            <span class="label">Status</span>
+                            <p class="status-badge">Available for Freelance</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="map-wrapper">
+                    <iframe 
+                        src="https://maps.google.com/maps?q=Madiun&t=m&z=14&output=embed" 
+                        width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+
+            </div>
+        </div>
+
+        <section class="faq-section" data-aos="fade-up">
+            <h2 class="section-title" style="text-align: center; font-size: 1.8rem;">Common <span>Questions</span></h2>
+            
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <h4>Do you work with teams?</h4>
+                    <p>Yes, I'm experienced with Git version control and agile workflows suitable for team collaboration.</p>
+                </div>
+                <div class="faq-item">
+                    <h4>What tech stack do you use?</h4>
+                    <p>Mainly React and Node.js for web, but I also explore Python for AI and Unity for VR projects.</p>
+                </div>
+                <div class="faq-item">
+                    <h4>Are you available for internship?</h4>
+                    <p>Yes, as an Informatics student at UNS, I am open to internship opportunities.</p>
+                </div>
+            </div>
+        </section>
+
+        <footer class="main-footer">
+            <div class="footer-container">
+                <div class="footer-top">
+                    <h2 class="footer-logo">RIZKYNUGR.</h2>
+                    <div class="footer-nav">
+                        <a href="index.html">Home</a>
+                        <a href="index.html#about">About</a>
+                        <a href="index.html#projects">Projects</a>
+                        <a href="project.html">All Works</a>
+                    </div>
+                </div>
+                <div class="footer-divider"></div>
+                <div class="footer-bottom">
+                    <p>&copy; 2024 Rizky Nugraha. Built with Passion.</p>
+                    <div class="footer-socials">
+                        <a href="https://www.instagram.com/rizkynugr_/">Instagram</a>
+                        <a href="https://www.linkedin.com/in/rizkynugr">LinkedIn</a>
+                        <a href="#">GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+
+        // Simple button animation for Contact Page
+        document.getElementById('contactPageForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            const btn = document.querySelector('.btn-submit');
+            btn.innerHTML = 'Sent Successfully! 🎉';
+            btn.style.background = 'linear-gradient(90deg, #00b09b, #96c93d)';
+        });
+    </script>
+</body>
+</html>
